@@ -16,3 +16,4 @@
 
 § View the commit history (git log).
 
+Added a small feature.
