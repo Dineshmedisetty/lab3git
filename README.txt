@@ -14,5 +14,8 @@
 
 § Commit the changes with a meaningful message (git commit -m "Initial commit of README.txt").
 
-§ View the co
+§ View the commit history (git log).
+
+2. Modifying and Tracking Changes:
+
 
