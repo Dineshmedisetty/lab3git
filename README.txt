@@ -16,4 +16,4 @@
 
 § View the commit history (git log).
 
-2. Modifying and Tracking Changes:
+2. Modifying and Tracking Chan
