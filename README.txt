@@ -17,7 +17,3 @@
 § View the commit history (git log).
 
 2. Modifying and Tracking Changes:
-
-§ Modify README.txt and add new content.
-
-§ Check the status of your reposi
