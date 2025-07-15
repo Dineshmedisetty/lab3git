@@ -6,7 +6,7 @@
 
 § Create a new directory for a project (e.g., my_first_repo)
 
-§ Initialize a Git repository within this directory (git init).
+§ Initialize a Git repository within this directory (git init)
 
 § Create a simple text file (e.g., README.txt) with some content.
 
