@@ -14,6 +14,6 @@
 
 § Commit the changes with a meaningful message (git commit -m "Initial commit of README.txt").
 
-§ View the commit history (git log).
+
 
 
