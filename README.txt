@@ -12,7 +12,7 @@
 
 § Add the file to the staging area (git add README.txt).
 
-§ Commit the changes with a meaningful message (git commit -m "Initial commit of README.txt").
+§ Commit the changes with a meaningful message 
 
 
 
