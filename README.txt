@@ -1,6 +1,6 @@
 . Setup and First Commit:
 
-§ Install Git on your system.
+§ Install Git on your system
 
 § Configure Git with your username and email
 
