@@ -17,4 +17,4 @@
 
 
 
-2. Modifying and Tracking Changes:
+2. Modifying and Tracking 
