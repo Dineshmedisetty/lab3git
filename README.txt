@@ -2,7 +2,7 @@
 
 § Install Git on your system.
 
-§ Configure Git with your username and email.
+§ Configure Git with your username and email
 
 § Create a new directory for a project (e.g., my_first_repo).
 
