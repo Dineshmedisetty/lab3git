@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid & Flexbox Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .photo-card {
+      background: #f0f0f0;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background: #ddd;
+    }
+
+    .caption span {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Photo Gallery</h1>
+  <div class="gallery">
+    <div class="photo-card">
+      <img src="img1.jpg" alt="Sample 1">
+      <div class="caption">
+        <span>Dharmashala</span>
+        <small>📸</small>
+      </div>
+    </div>
+    <div class="photo-card">
+      <img src="img2.jpg" alt="Sample 2">
+      <div class="caption">
+        <span>Lords</span>
+        <small>📸</small>
+      </div>
+    </div>
+    <div class="photo-card">
+      <img src="img3.jpg" alt="Sample 3">
+      <div class="caption">
+        <span>Melbourne</span>
+        <small>📸</small>
+      </div>    </div>  </div></body></html>

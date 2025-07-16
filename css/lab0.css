@@ -1,0 +1,28 @@
+p {
+    color: blue;
+}
+
+li.special {
+    color: green;
+    font-weight: bold;
+}
+a[href^="http"] {
+    color: red;
+    text-decoration: underline;
+}
+a:hover {
+    color: orange;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+li:nth-child(even) {
+    background-color: lightgray;
+}
+h2::before {
+    content: "⭐ ";
+    font-size: 1.5em;
+    color: gold;
+}

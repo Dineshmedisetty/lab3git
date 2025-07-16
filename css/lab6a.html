@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Float-Based Blog Layout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    header, footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #555;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      overflow: hidden; /* Clear floats */
+      padding: 20px;
+    }
+    .main {
+      float: left;
+      width: 60%;
+      background: #f9f9f9;
+      padding: 15px;
+    }
+    .sidebar {
+      float: right;
+      width: 30%;
+      background: #e4e4e4;
+      padding: 15px;
+    }
+    footer {      clear: both;    }
+  </style>
+</head>
+<body>
+  <header><h1>My Float-Based Blog</h1></header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Articles</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="container">
+    <div class="main">
+      <h2>Main Content</h2>
+      <p>This is the main content area of the blog post. Floated left.</p>
+    </div>
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <p>Additional links or info here. Floated right.</p>
+    </div>
+  </div>
+  <footer>
+    <p>Footer content goes here</p>
+  </footer>
+</body>
+</html>
