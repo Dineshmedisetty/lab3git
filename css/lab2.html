@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Box Model Lab</title>
+  <style>
+    .box {
+      width: 50px;
+      height: 10px;
+      border: 3px solid;
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      text-align: center;
+      vertical-align: top;
+    }
+    .box1 {
+      border-color: red;
+      background-color: #ffe5e5;
+    }
+    .box2 {
+      border-color: green;
+      background-color: #e5ffe5;
+    }
+    .box3 {
+      border-color: blue;
+      background-color: #e5e5ff;
+    }
+    .inline {
+      display: inline-block;
+    }
+    .rounded {
+      border-radius: 15px;
+    }
+    .border-box {
+      box-sizing: border-box;
+    }
+    .content-box {
+      box-sizing: content-box;
+    }
+  </style>
+</head>
+<body>
+  <h2>Default (block)</h2>
+  <div class="box box1">Box 1</div>
+  <div class="box box2">Box 2</div>
+  <div class="box box3">Box 3</div>
+  <h2>Inline-block</h2>
+  <div class="box box1 inline">Box 1</div>
+  <div class="box box2 inline">Box 2</div>
+  <div class="box box3 inline">Box 3</div>
+  <h2>Rounded Corners</h2>
+  <div class="box box1 inline rounded">Box 1</div>
+  <div class="box box2 inline rounded">Box 2</div>
+  <div class="box box3 inline rounded">Box 3</div>
+  <h2>Box-Sizing Comparison</h2>
+  <div class="box box1 inline border-box">Border-box</div>
+  <div class="box box2 inline content-box">Content-box</div>
+</body>
+</html>

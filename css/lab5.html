@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 5 - Transitions & Animations</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 40px;
+    }
+    .btn {
+      padding: 12px 24px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease; /* Hover transition */
+    }
+    .btn:hover {
+      background-color: #1d6fa5;
+    }
+    .rotating {
+      margin-top: 40px;
+      width: 250px;
+      height: 250px;
+      animation: spin 8s linear infinite; /* Infinite rotation */
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg);  }
+      to { transform: rotate(360deg);  }
+    }
+  </style>
+</head>
+<body>
+  <h2>Button with Hover Transition</h2>
+  <button class="btn">Hover Me</button>
+  <h2>Rotating Image</h2>
+  <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/377400/377471.jpg" alt="Rotating" class="rotating">
+</body>
+</html>
